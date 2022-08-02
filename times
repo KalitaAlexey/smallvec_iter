@@ -1,0 +1,107 @@
+usize_8_2/value         time:   [7.4597 ns 7.4880 ns 7.5231 ns]
+usize_8_2/ref           time:   [6.1438 ns 6.2022 ns 6.2785 ns]
+usize_8_2/ref_deref     time:   [6.2387 ns 6.2679 ns 6.2999 ns]
+
+usize_8_8/value         time:   [13.022 ns 13.066 ns 13.113 ns]
+usize_8_8/ref           time:   [8.9698 ns 9.0242 ns 9.0826 ns]
+usize_8_8/ref_deref     time:   [8.9661 ns 9.0080 ns 9.0549 ns]
+
+usize_32_2/value        time:   [21.368 ns 21.429 ns 21.492 ns]
+usize_32_2/ref          time:   [13.298 ns 13.411 ns 13.531 ns]
+usize_32_2/ref_deref    time:   [14.084 ns 14.167 ns 14.260 ns]
+
+usize_32_8/value        time:   [23.983 ns 24.118 ns 24.269 ns]
+usize_32_8/ref          time:   [15.696 ns 15.736 ns 15.780 ns]
+usize_32_8/ref_deref    time:   [15.747 ns 15.792 ns 15.837 ns]
+
+usize_32_32/value       time:   [37.434 ns 37.773 ns 38.129 ns]
+usize_32_32/ref         time:   [30.525 ns 30.657 ns 30.804 ns]
+usize_32_32/ref_deref   time:   [30.407 ns 30.538 ns 30.686 ns]
+
+usize_64_2/value        time:   [32.086 ns 32.298 ns 32.515 ns]
+usize_64_2/ref          time:   [22.820 ns 22.904 ns 23.003 ns]
+usize_64_2/ref_deref    time:   [22.885 ns 22.997 ns 23.129 ns]
+
+usize_64_8/value        time:   [34.863 ns 35.004 ns 35.171 ns]
+usize_64_8/ref          time:   [25.435 ns 25.582 ns 25.751 ns]
+usize_64_8/ref_deref    time:   [25.575 ns 25.712 ns 25.863 ns]
+
+usize_64_32/value       time:   [51.466 ns 51.717 ns 51.974 ns]
+usize_64_32/ref         time:   [36.009 ns 36.197 ns 36.401 ns]
+usize_64_32/ref_deref   time:   [36.370 ns 36.558 ns 36.785 ns]
+
+usize_64_64/value       time:   [71.665 ns 71.911 ns 72.197 ns]
+usize_64_64/ref         time:   [55.723 ns 56.033 ns 56.376 ns]
+usize_64_64/ref_deref   time:   [56.388 ns 56.697 ns 57.050 ns]
+
+two_usize_8_2/value     time:   [11.526 ns 11.573 ns 11.627 ns]
+two_usize_8_2/ref       time:   [8.6650 ns 8.7140 ns 8.7676 ns]
+two_usize_8_2/ref_deref time:   [10.157 ns 10.193 ns 10.233 ns]
+
+two_usize_8_8/value     time:   [24.791 ns 24.854 ns 24.924 ns]
+two_usize_8_8/ref       time:   [23.150 ns 23.192 ns 23.233 ns]
+two_usize_8_8/ref_deref time:   [24.042 ns 24.088 ns 24.140 ns]
+
+two_usize_32_2/value     time:   [32.453 ns 32.577 ns 32.714 ns]
+two_usize_32_2/ref       time:   [22.799 ns 23.040 ns 23.355 ns]
+two_usize_32_2/ref_deref time:   [24.197 ns 24.390 ns 24.589 ns]
+
+two_usize_32_8/value     time:   [36.397 ns 36.511 ns 36.645 ns]
+two_usize_32_8/ref       time:   [26.646 ns 26.749 ns 26.853 ns]
+two_usize_32_8/ref_deref time:   [27.753 ns 27.931 ns 28.152 ns]
+
+two_usize_32_32/value     time:   [55.437 ns 55.598 ns 55.789 ns]
+two_usize_32_32/ref       time:   [37.591 ns 37.846 ns 38.154 ns]
+two_usize_32_32/ref_deref time:   [48.553 ns 48.832 ns 49.209 ns]
+
+two_usize_64_2/value     time:   [32.755 ns 32.987 ns 33.252 ns]
+two_usize_64_2/ref       time:   [22.845 ns 22.915 ns 22.995 ns]
+two_usize_64_2/ref_deref time:   [23.643 ns 23.762 ns 23.890 ns]
+
+two_usize_64_8/value     time:   [37.104 ns 37.342 ns 37.590 ns]
+two_usize_64_8/ref       time:   [26.272 ns 26.368 ns 26.480 ns]
+two_usize_64_8/ref_deref time:   [27.635 ns 27.842 ns 28.087 ns]
+
+two_usize_64_32/value    time:   [58.132 ns 58.393 ns 58.673 ns]
+two_usize_64_32/ref      time:   [38.354 ns 38.698 ns 39.086 ns]
+two_usize_64_32/ref_deref time:   [48.250 ns 48.423 ns 48.622 ns]
+
+two_usize_64_64/value     time:   [89.355 ns 89.900 ns 90.466 ns]
+two_usize_64_64/ref       time:   [66.149 ns 66.838 ns 67.511 ns]
+two_usize_64_64/ref_deref time:   [82.832 ns 83.271 ns 83.758 ns]
+
+s_8_2/value             time:   [12.441 ns 12.537 ns 12.653 ns]
+s_8_2/ref               time:   [10.147 ns 10.179 ns 10.214 ns]
+s_8_2/ref_deref         time:   [10.472 ns 10.495 ns 10.519 ns]
+
+s_8_8/value             time:   [17.783 ns 17.856 ns 17.939 ns]
+s_8_8/ref               time:   [22.316 ns 22.364 ns 22.416 ns]
+s_8_8/ref_deref         time:   [16.201 ns 16.227 ns 16.257 ns]
+
+s_32_2/value            time:   [34.266 ns 34.580 ns 34.945 ns]
+s_32_2/ref              time:   [23.385 ns 23.503 ns 23.647 ns]
+s_32_2/ref_deref        time:   [25.869 ns 25.988 ns 26.110 ns]
+
+s_32_8/value            time:   [37.583 ns 37.800 ns 38.045 ns]
+s_32_8/ref              time:   [26.148 ns 26.314 ns 26.536 ns]
+s_32_8/ref_deref        time:   [28.543 ns 28.786 ns 29.082 ns]
+
+s_32_32/value           time:   [59.695 ns 60.124 ns 60.673 ns]
+s_32_32/ref             time:   [40.451 ns 40.704 ns 41.039 ns]
+s_32_32/ref_deref       time:   [51.059 ns 51.390 ns 51.772 ns]
+
+s_64_2/value            time:   [52.249 ns 52.546 ns 52.863 ns]
+s_64_2/ref              time:   [41.461 ns 41.596 ns 41.754 ns]
+s_64_2/ref_deref        time:   [42.590 ns 42.934 ns 43.321 ns]
+
+s_64_8/value            time:   [58.454 ns 58.910 ns 59.386 ns]
+s_64_8/ref              time:   [48.742 ns 48.997 ns 49.248 ns]
+s_64_8/ref_deref        time:   [49.302 ns 49.575 ns 49.848 ns]
+
+s_64_32/value           time:   [84.678 ns 85.162 ns 85.694 ns]
+s_64_32/ref             time:   [60.234 ns 60.600 ns 61.009 ns]
+s_64_32/ref_deref       time:   [68.199 ns 68.594 ns 69.029 ns]
+
+s_64_64/value           time:   [110.18 ns 110.79 ns 111.47 ns]
+s_64_64/ref             time:   [74.159 ns 74.533 ns 74.990 ns]
+s_64_64/ref_deref       time:   [94.713 ns 95.522 ns 96.562 ns]
